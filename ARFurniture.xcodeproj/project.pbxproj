@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		495704E0256C70F8000EF0C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495704DF256C70F8000EF0C8 /* AppDelegate.swift */; };
 		495704E2256C70F8000EF0C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495704E1256C70F8000EF0C8 /* ViewController.swift */; };
-		495704E4256C70F8000EF0C8 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 495704E3256C70F8000EF0C8 /* Experience.rcproject */; };
 		495704E7256C70F8000EF0C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495704E5256C70F8000EF0C8 /* Main.storyboard */; };
 		495704E9256C70F9000EF0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495704E8256C70F9000EF0C8 /* Assets.xcassets */; };
 		495704EC256C70F9000EF0C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495704EA256C70F9000EF0C8 /* LaunchScreen.storyboard */; };
 		495704F7256C70F9000EF0C8 /* ARFurnitureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495704F6256C70F9000EF0C8 /* ARFurnitureTests.swift */; };
 		49570502256C70F9000EF0C8 /* ARFurnitureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49570501256C70F9000EF0C8 /* ARFurnitureUITests.swift */; };
+		49570513256C7570000EF0C8 /* Couch.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 49570512256C7570000EF0C8 /* Couch.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		495704DC256C70F8000EF0C8 /* ARFurniture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFurniture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		495704DF256C70F8000EF0C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		495704E1256C70F8000EF0C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		495704E3256C70F8000EF0C8 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		495704E6256C70F8000EF0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		495704E8256C70F9000EF0C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		495704EB256C70F9000EF0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		495704FD256C70F9000EF0C8 /* ARFurnitureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFurnitureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49570501256C70F9000EF0C8 /* ARFurnitureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFurnitureUITests.swift; sourceTree = "<group>"; };
 		49570503256C70F9000EF0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49570512256C7570000EF0C8 /* Couch.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Couch.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				495704DF256C70F8000EF0C8 /* AppDelegate.swift */,
 				495704E1256C70F8000EF0C8 /* ViewController.swift */,
-				495704E3256C70F8000EF0C8 /* Experience.rcproject */,
+				49570512256C7570000EF0C8 /* Couch.rcproject */,
 				495704E5256C70F8000EF0C8 /* Main.storyboard */,
 				495704E8256C70F9000EF0C8 /* Assets.xcassets */,
 				495704EA256C70F9000EF0C8 /* LaunchScreen.storyboard */,
@@ -260,7 +260,7 @@
 			files = (
 				495704E2256C70F8000EF0C8 /* ViewController.swift in Sources */,
 				495704E0256C70F8000EF0C8 /* AppDelegate.swift in Sources */,
-				495704E4256C70F8000EF0C8 /* Experience.rcproject in Sources */,
+				49570513256C7570000EF0C8 /* Couch.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S8662L649U;
 				INFOPLIST_FILE = ARFurniture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S8662L649U;
 				INFOPLIST_FILE = ARFurniture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
