@@ -103,116 +103,238 @@
                             "typeName" : "UUID",
                             "value" : "0D8DFCFA-DDD7-402C-AA04-80245FA3D978"
                           }
+                        ],
+                        [
+                          "accessibilityDescription",
+                          {
+                            "typeName" : "String",
+                            "value" : "Couch Accessibility"
+                          }
+                        ],
+                        [
+                          "accessibilityLabel",
+                          {
+                            "typeName" : "String",
+                            "value" : "Couch"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "couch"
+                          }
+                        ],
+                        [
+                          "isAccessibilityEnabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-material",
+                          {
+                            "typeName" : "RigidBodyMaterial",
+                            "value" : {
+                              "builtIn" : "wood",
+                              "overrides" : {
+
+                              }
+                            }
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        0.2492358535528183,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        0.2492358535528183,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        0.2492358535528183,
                         0,
                         0,
-                        -5.9604634117249589e-08,
-                        -1.5224140882492065,
+                        -5.96028222332734e-08,
+                        -0.1246735155582428,
                         1
                       ]
                     }
                   },
-                  "29151DA4-EC90-465D-BA20-6F28067843EC" : {
+                  "7C369B23-15B3-4AD8-8CA6-7C922BC64941" : {
                     "overrides" : {
-                      "arguments" : [
-                        [
-                          "bevelRadius",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.050000000000000003
-                          }
-                        ],
-                        [
-                          "diameter",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.16447000000000001
-                          }
-                        ],
-                        [
-                          "height",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.021769255399703979
-                          }
-                        ],
-                        [
-                          "material",
-                          {
-                            "typeName" : "String",
-                            "value" : "standard"
-                          }
-                        ],
-                        [
-                          "materialColor",
-                          {
-                            "typeName" : "double4",
-                            "value" : [
-                              0.20000000000000001,
-                              0.59999999999999998,
-                              1,
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:e95931200919a143a36edc8f49cd7a31\/Corvus-Mid-century-Modern-Accent-Chair.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "DE207B39-9875-4ACC-80D7-1CED6D27BF37"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
                               1
                             ]
                           }
-                        ],
-                        [
-                          "type",
-                          {
-                            "typeName" : "String",
-                            "value" : "cylinder"
-                          }
-                        ]
-                      ],
+                        }
+                      },
                       "factory" : {
-                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
-                        "version" : "1.0"
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
                       },
                       "runtimeAttributes" : [
                         [
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "49B6FDD8-9943-40BF-ACC2-01D8A7BE69DC"
+                            "value" : "252125AD-5814-47C1-A91E-F84BA22651D3"
+                          }
+                        ],
+                        [
+                          "accessibilityDescription",
+                          {
+                            "typeName" : "String",
+                            "value" : "Chair Accessibility"
+                          }
+                        ],
+                        [
+                          "accessibilityLabel",
+                          {
+                            "typeName" : "String",
+                            "value" : "Chair"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "chair"
+                          }
+                        ],
+                        [
+                          "isAccessibilityEnabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-material",
+                          {
+                            "typeName" : "RigidBodyMaterial",
+                            "value" : {
+                              "builtIn" : "wood",
+                              "overrides" : {
+
+                              }
+                            }
                           }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        0.1746663898229599,
+                        0,
+                        -0.17466636002063751,
                         0,
                         0,
+                        0.247015580534935,
                         0,
                         0,
-                        1,
+                        0.17466637492179871,
                         0,
+                        0.17466640472412109,
                         0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        -3.1664971089639948e-08,
-                        0.010884641669690609,
-                        0,
+                        -0.77762460708618164,
+                        -0.20608273148536682,
+                        -0.38821056485176086,
                         1
                       ]
                     }
-                  }
+                  },
+                  "29151DA4-EC90-465D-BA20-6F28067843EC" : null
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
@@ -229,21 +351,21 @@
               "title" : "Scene",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.9959944486618042,
-                  -9.3132257461547852e-09,
-                  0.089414805173873901,
+                  0.99699509143829346,
+                  -7.4505805969238281e-09,
+                  -0.077464573085308075,
                   0,
-                  0.011712747626006603,
-                  0.99138343334197998,
-                  -0.13046716153621674,
+                  -0.039776008576154709,
+                  0.85810434818267822,
+                  -0.51193231344223022,
                   0,
-                  -0.088644564151763916,
-                  0.13099201023578644,
-                  0.98741233348846436,
+                  0.06647249311208725,
+                  0.51347529888153076,
+                  0.85552585124969482,
                   0,
-                  0.0067005883902311325,
-                  0.23320755362510681,
-                  0.66915374994277954,
+                  0.03953368216753006,
+                  0.82545995712280273,
+                  1.3572388887405396,
                   1
                 ],
                 "sceneTransform" : [
